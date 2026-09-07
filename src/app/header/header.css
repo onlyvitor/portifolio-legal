@@ -1,8 +1,9 @@
 .site-header img {
-  max-width: 1000px; /* largura fixa, tipo a da imagem */
+  max-width: 1000px;
   margin: 0 auto;
   width: 100%;
   display: block;
+  pointer-events: none;
 }
 
 .site-header {
@@ -21,4 +22,31 @@
   border-radius: 4px;
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.site-nav {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.nav-btn {
+  font-family: 'Comic Sans MS', monospace;
+  text-transform: lowercase;
+  padding: 0.4rem 1.2rem;
+  border: 1px solid transparent;
+  border-image: linear-gradient(135deg, #c0c0c0, #4a4a4a) 1;
+  background: transparent;
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  transition:
+    box-shadow 0.2s,
+    background 0.2s;
+}
+
+.nav-btn:hover,
+.nav-btn.active {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 6px rgba(200, 200, 255, 0.4);
 }
