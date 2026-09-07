@@ -1,4 +1,6 @@
 .site-header img {
+  max-width: 1000px; /* largura fixa, tipo a da imagem */
+  margin: 0 auto;
   width: 100%;
   display: block;
 }
