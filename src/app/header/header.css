@@ -50,3 +50,39 @@
   background: rgba(255, 255, 255, 0.05);
   box-shadow: 0 0 6px rgba(200, 200, 255, 0.4);
 }
+
+.nav-text {
+  transition: color 0.15s;
+}
+
+.nav-btn:hover .nav-text {
+  color: #fff2cc;
+  animation: fire-flicker 0.35s infinite alternate;
+}
+
+@keyframes fire-flicker {
+  0% {
+    text-shadow:
+      0 -2px 4px #ff9a00,
+      0 -4px 8px #ff5e00,
+      0 -8px 14px #ff3d00,
+      0 -12px 20px #ff1a00,
+      0 -16px 26px #cc0000;
+  }
+  50% {
+    text-shadow:
+      0 -3px 6px #ffb700,
+      0 -6px 10px #ff7300,
+      0 -10px 16px #ff4400,
+      0 -14px 22px #ff0d00,
+      0 -18px 28px #a80000;
+  }
+  100% {
+    text-shadow:
+      0 -1px 3px #ffcc00,
+      0 -3px 7px #ff8800,
+      0 -6px 12px #ff3300,
+      0 -10px 18px #ff0000,
+      0 -14px 24px #990000;
+  }
+}
