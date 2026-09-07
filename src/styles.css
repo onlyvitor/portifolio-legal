@@ -1,17 +1,11 @@
 body {
   margin: 0;
-  background-image: url('/assets/strelas-background.gif');
+  background-image: url('/assets/background.gif');
   background-repeat: repeat;
   background-size: cover;
   background-position: center top;
 }
 
 .site-wrapper {
-  max-width: 1000px;
   margin: 0 auto;
-}
-
-.site-header img {
-  width: 100%;
-  display: block;
 }
