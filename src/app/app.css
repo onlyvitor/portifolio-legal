@@ -4,3 +4,17 @@ body {
   font-family: 'Courier New', Courier, monospace;
   color: white;
 }
+
+.site-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-banner {
+  max-width: 120px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  pointer-events: none;
+}
