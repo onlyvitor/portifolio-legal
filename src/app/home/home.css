@@ -1,5 +1,5 @@
 .home-border {
-  border: 50px solid transparent;
+  border: 5px solid transparent;
   border-image: linear-gradient(
       135deg,
       #4a4a4a 0%,
@@ -17,7 +17,7 @@
 }
 
 .home-content {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 2rem 1rem;
   display: flex;
