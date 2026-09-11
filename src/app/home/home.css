@@ -1,0 +1,89 @@
+.home-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section-title {
+  font-family: 'Courier New', Courier, monospace;
+  color: #00ff00;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 8px #00ff00;
+}
+
+.terminal-box {
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid #00ff00;
+  border-radius: 4px;
+  padding: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #00ff00;
+  line-height: 1.8;
+}
+
+.terminal-box a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+.terminal-box a:hover {
+  text-shadow: 0 0 6px #00ffff;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  font-family: 'Comic Sans MS', monospace;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #888;
+  border-image: linear-gradient(135deg, #c0c0c0, #4a4a4a) 1;
+  padding: 0.4rem 1rem;
+  color: #fff;
+  text-transform: lowercase;
+}
+
+.skill-tag:hover {
+  box-shadow: 0 0 8px rgba(200, 200, 255, 0.4);
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-card {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid #4a4a4a;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.project-name {
+  font-family: 'Courier New', Courier, monospace;
+  color: #ff9a00;
+  margin: 0 0 0.5rem 0;
+  text-shadow: 0 -2px 4px #ff5e00;
+}
+
+.project-card p {
+  color: #ccc;
+  margin: 0 0 0.5rem 0;
+}
+
+.project-link {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-shadow: 0 0 6px #00ffff;
+}
